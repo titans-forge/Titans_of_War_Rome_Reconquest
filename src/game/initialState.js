@@ -1,0 +1,57 @@
+export const SAVE_VERSION = 5
+
+export const createInitialState = () => ({
+  version: SAVE_VERSION,
+  scenarioId: 'accession_council',
+  turn: 1,
+  resources: {
+    treasury: 72,
+    grain: 74,
+    fieldForces: 66,
+    attention: 70,
+  },
+  institutions: {
+    reach: 54,
+    resilience: 58,
+    fiscal: 61,
+    military: 60,
+    legal: 44,
+    order: 63,
+  },
+  factions: {
+    senate: 52,
+    blues: 58,
+    greens: 46,
+    army: 60,
+    church: 56,
+    theodora: 70,
+  },
+  theaters: {
+    eastSecurity: 52,
+    balkanSecurity: 46,
+    fleetReadiness: 48,
+    africaControl: 0,
+    africaSettlement: 0,
+    italyControl: 0,
+    italySettlement: 0,
+    spainControl: 0,
+    spainSettlement: 0,
+  },
+  crisis: {
+    epidemicBurden: 0,
+    burialCapacity: 88,
+    laborCapacity: 86,
+    administrativeContinuity: 84,
+    successionConfidence: 68,
+  },
+  appointments: {
+    law: null,
+    revenue: null,
+    easternCommand: null,
+    westernCommand: null,
+  },
+  pending: [],
+  history: [],
+  flags: {},
+  endingId: null,
+})
