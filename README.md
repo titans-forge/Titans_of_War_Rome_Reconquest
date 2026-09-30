@@ -51,4 +51,19 @@ See [ROME_RECONQUEST_PRODUCTION_PLAN.md](./ROME_RECONQUEST_PRODUCTION_PLAN.md) f
 
 ## License
 
-Code is released under the MIT License. Media has separate rights and provenance recorded in [MEDIA_RIGHTS.md](./MEDIA_RIGHTS.md).
+Current project policy: [Forge Game Hosting License 1.0](LICENSE), with the
+release boundary recorded in [LICENSING.md](LICENSING.md) and
+[LICENSING_CHECKPOINT.json](LICENSING_CHECKPOINT.json).
+
+For newly covered material, companies with gross annual revenue **over
+US$1,000,000** need a separate written licence to publicly host their own playable
+copy. Ordinary playing and private internal/classroom use do not require one.
+See the full terms for platform embeds, revenue calculation and exceptions.
+
+**Earlier MIT permissions remain available.** The original notice is preserved in
+[LICENSE-LEGACY-MIT.txt](LICENSE-LEGACY-MIT.txt). Previously MIT-licensed code,
+documentation and assets keep those grants, including hosting rights for the same
+material. Existing media and third-party rights/credits remain unchanged.
+This policy update does not rewrite old releases or make identical MIT material
+exclusively Forge-licensed. Future covered game changes need a distinct release
+boundary. [Commercial inquiries](https://titans-forge.itch.io/).
