@@ -1,5 +1,16 @@
 # Titans of War: Rome Reconquest
 
+[Play on itch.io](https://titans-forge.itch.io/titans-of-war-rome-reconquest) ·
+[Forge source](https://github.com/titans-forge/Titans_of_War_Rome_Reconquest) ·
+[Report an issue](https://github.com/titans-forge/Titans_of_War_Rome_Reconquest/issues) ·
+[Game collection](https://github.com/titans-forge/educational-games)
+
+The existing repository moved from JCapone83 to Titans Forge on September 30,
+2026, retaining its history, tags, release assets and licensing checkpoints.
+Historical owner names in those records remain intentional; earlier MIT grants
+and separate media rights are preserved. The source branch is not certified to
+match the current itch.io build.
+
 Rule the Roman Empire through law, war, faction, revolt, and western reconquest.
 
 This repository contains five playable acts covering the opening of Justinian's reign, the Nika revolt, the western reconquests, renewed Persian war, Totila's resurgence, the plague, Theodora's death, the second reconquest, and the final burden of defending and transferring the restored empire, 527-565.
@@ -7,6 +18,8 @@ This repository contains five playable acts covering the opening of Justinian's 
 ## Play locally
 
 ```bash
+git clone https://github.com/titans-forge/Titans_of_War_Rome_Reconquest.git
+cd Titans_of_War_Rome_Reconquest
 npm install
 npm run dev
 ```

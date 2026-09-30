@@ -4,6 +4,14 @@
   "private": false,
   "description": "Historical statecraft across Justinian's reign and western reconquests.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/titans-forge/Titans_of_War_Rome_Reconquest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/titans-forge/Titans_of_War_Rome_Reconquest/issues"
+  },
+  "homepage": "https://titans-forge.itch.io/titans-of-war-rome-reconquest",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
