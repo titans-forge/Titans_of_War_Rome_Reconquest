@@ -1,59 +1,21 @@
-# Licensing checkpoint: Titans of War: Rome Reconquest
+# Licensing: Titans of War: Rome Reconquest
 
-Checkpoint: **FG-LIC-20260930-10-GH1**. Recorded September 30, 2026.
+Current packaging edition: **FG2-TITANS-OF-WAR-ROME-RECONQUEST-20261015**, October 15, 2026. This is a **licensing-only edition** of `rome-reconquest-itch-fgl1-20260930.zip`. Gameplay and media are unchanged. The game/package version remains 0.6.0; the edition identifier distinguishes the new notices.
 
-## Current policy
+## Forge Game License 2.0
 
-The current project licensing policy is [Forge Game Hosting License 1.0](LICENSE).
-This is a source-available licence, not an OSI-approved open-source licence.
-For newly supplied, Licensor-controlled material covered by those terms, a company
-with gross annual revenue **over US$1,000,000**, including its controlled
-subsidiaries, needs a separate written agreement before publicly hosting its own
-playable copy. Ordinary play, private internal/classroom use, official links and
-authorized platform-served embeds are excluded as defined in the full licence.
-[Contact Titans Forge](https://titans-forge.itch.io/).
+The owner authorized Forge Game License 2.0 for qualifying newly supplied Forge-controlled contributions and future identified releases. Companies and other legal entities with gross annual revenue strictly over US$1,000,000, including controlled subsidiaries as defined in the full terms, need separate written permission for **either public hosting or AI training on covered new material**. The requirements are independent. The training condition includes qualifying private/internal training, fine-tuning, distillation and intended training datasets. There is no automatic educational-institution exemption. Ordinary play, private classroom play and AI-assisted editing/inference without model training remain permitted as defined in `LICENSE`. Applicable statutory rights are preserved. This is source-available licensing, not an OSI-approved open-source license.
 
-Copyright (c) 2026 Titans Forge LLC for the newly authored checkpoint and
-release-notice staging support. Attribution for existing components is retained.
+## Earlier permissions remain available
 
-## Earlier MIT grants remain available
+The entire previously published gameplay and media in this packaging edition keep their existing permissions. Earlier MIT, Forge 1.0, Forge 1.1, platform and third-party grants remain available for material to which they apply, including earlier portions of modified files. No changed version, filename, hash or root notice withdraws them. The AI clause does not retroactively restrict previously licensed material. Its prospective scope here is qualifying new expression in the added/revised licensing documentation, offline licensing page and packaging checks. A changed-path inventory does not declare every byte newly licensed or copyrightable. No rights in public-domain works, historical facts, ideas or unprotectable material are newly claimed.
 
-The last pre-checkpoint default-branch commit is
-[`6fba56ee2a6dd03941befa473894d7182d17d7f0`](https://github.com/JCapone83/Titans_of_War_Rome_Reconquest/tree/6fba56ee2a6dd03941befa473894d7182d17d7f0),
-with tree `4c58899b76b50a8fcc622aee82cbd84a7dfc61a0`.
-Its original MIT notice is retained **byte-for-byte** as
-[LICENSE-LEGACY-MIT.txt](LICENSE-LEGACY-MIT.txt).
+The exact prior root license is `LICENSE-LEGACY-PRE-FORGE-2.0.txt` (SHA-256 `28638be413f7815704fe68aed52a4ea4cb7bd4d28b35f2dca9b78d438a4a90bf`). Prior policy records and snapshots are preserved in `docs/licensing-history/2026-10-15-before-forge-2.0/`; these are historical evidence, not a claim that this notice-only update changed the game. Existing MIT/media/dependency notices remain untouched. Earlier source is commit `72dbdc8bd72608715db651ad832956216cfab7bf`, tree `c770d8f2b0b4f2fe6fa2d6e3312a191875410ab6`. The previously qualified browser ZIP is `rome-reconquest-itch-fgl1-20260930.zip` (SHA-256 `532b3b7a8d581abe79a9910a83d3e127106808370d14a5f5bf4b0fb7fd09c08b`). In the new ZIP, prior notices replaced at the root are retained byte-for-byte under `licenses/prior-release/`. All other original entries are retained byte-for-byte.
 
-- Previous MIT notice Git blob: `b4711767fcb3d539183836648ed2439f181478d4`.
-- Previous MIT notice SHA-256: `3780b6186f5e587b2eefdf0b828864fbf97ed9295e162a12765785c56f00f39d`.
-- Approved Forge licence SHA-256: `28638be413f7815704fe68aed52a4ea4cb7bd4d28b35f2dca9b78d438a4a90bf`.
+## Distribution and packaging
 
-All source already published at that commit keeps its MIT permissions.
-Identical previously MIT-licensed material remains usable and hostable under MIT;
-this checkpoint does not retroactively impose a hosting fee on it.
-This is a licensing/documentation/release-support change, **not a gameplay upgrade**.
-The package version remains `0.6.0`; no old tag, release or history is
-rewritten. Newly authored checkpoint documents and staging support are expressly
-offered under the Forge terms. Future covered game changes need their own
-identifiable release boundary. Modifications to previously MIT files do not erase
-the original MIT grant over the earlier material.
+Titans Forge authorizes this official GitHub/itch licensing update. Existing distribution permissions remain intact; distribution authority is not itself AI-training authority over qualifying new material. Apple distribution may be separately authorized with compatible player terms while preserving prior and third-party grants. This pass does not accept an Apple agreement or submit an Apple app.
 
-## Media, dependencies and distribution
+Read the complete policy in `LICENSE`, the source adoption record in `LICENSE_ADOPTION_SOURCE.json`, and the release-specific scope in `LICENSING_CHECKPOINT.json`. The archive root also contains an offline `licensing.html` page and full notices. Existing in-game credits describe the earlier gameplay grants, which remain available; this new policy is prospective.
 
-Existing media, third-party software, fonts and separately licensed assets retain
-their original terms and required attribution. Existing rights records are not
-replaced by the root licence. Earlier blanket MIT grants over project-authored
-interface assets or documentation also remain available. No new rights over
-third-party media or trademarks are asserted.
-
-The machine-readable record is [LICENSING_CHECKPOINT.json](LICENSING_CHECKPOINT.json).
-It identifies this GitHub policy boundary only; equivalence with the currently
-hosted itch.io build is not certified.
-
-`npm run build` stages the full current licence, preserved MIT notice and
-checkpoint in `dist/` after Vite succeeds, alongside any media/NOTICE records.
-Markdown rights documents are packaged as text so production-only ZIP checks
-continue to work. Direct `vite build` bypasses npm's lifecycle hook: before
-redistribution, run `node scripts/stage-release-licenses.mjs` and then
-`node scripts/stage-release-licenses.mjs --check`.
-The staging script changes no gameplay file and performs no network requests.
+Separate hosting or AI-training permissions come only from a written agreement with Titans Forge LLC identifying the authorized activity. No fee is set by these community terms. Contact: https://titans-forge.itch.io/.

@@ -1,0 +1,18 @@
+{
+  "changed_file_sha256": {
+    "FORGE-LICENSING.html": "14dea7c738c88a13282bf10e0f253b6600a0419f9665bd453665d9e439b62bd5",
+    "LICENSE": "01c53180ca78bee80411c2d07e436014b62f7e48dd37de70c2fed72238ee57dc",
+    "LICENSE-LEGACY-PRE-FORGE-2.0.txt": "28638be413f7815704fe68aed52a4ea4cb7bd4d28b35f2dca9b78d438a4a90bf",
+    "LICENSING.md": "500416f776382377f25cad709fc2323ece1d4ab932dbd57fb9c9bb54a601d510",
+    "README.md": "fe9ee64873e0f4762ef4d009054d2166dd8c27864c884e218be778f9289ba11f",
+    "docs/licensing-history/2026-10-15-before-forge-2.0/LICENSE": "28638be413f7815704fe68aed52a4ea4cb7bd4d28b35f2dca9b78d438a4a90bf",
+    "docs/licensing-history/2026-10-15-before-forge-2.0/LICENSING.md": "ab82eff8c7ceaf28fc42b113607f11dd6e7c4db1ac3c2640a5886ee2f19d03bb",
+    "docs/licensing-history/2026-10-15-before-forge-2.0/LICENSING_CHECKPOINT.json": "07e3ae58a2e5ee5fa6bded804bb7d60a6a2347d2d9e24fa19c32b0ddaba4960b",
+    "scripts/stage-release-licenses.mjs": "df0a279f049e05a77473e9078fc091e437c06ccf96c6762e29a7d3675f0301c1"
+  },
+  "coverage": "Only qualifying new expression in revised/added policy documentation, offline rights page and packaging checks. Existing portions and all unchanged game material keep prior grants.",
+  "edition": "FG2-TITANS-OF-WAR-ROME-RECONQUEST-20261015",
+  "previous_source_commit": "72dbdc8bd72608715db651ad832956216cfab7bf",
+  "previous_source_tree": "c770d8f2b0b4f2fe6fa2d6e3312a191875410ab6",
+  "schema": "forge_license_adoption_source_v1"
+}
